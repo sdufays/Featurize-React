@@ -25,27 +25,22 @@ const AboutSectionOne = () => {
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
                 title="Customized Solutions for Diverse Tech Companies"
-                paragraph="At Featurize, we specialize in enhancing consumer-facing applications for tech companies across various sizes and stages. Our platform is designed to streamline the development process, enabling businesses to rapidly innovate and refine their offerings without overextending their resources.
-
-                "
+                paragraph="At Featurize, we specialize in enhancing consumer-facing applications for tech companies across various sizes and stages. Our platform is designed to streamline the development process, enabling businesses to rapidly innovate and refine their offerings without overextending their resources."
                 mb="44px"
               />
-
               <div
                 className="mb-12 max-w-[570px] lg:mb-0"
                 data-wow-delay=".15s"
               >
                 <div className="mx-[-12px] flex flex-wrap">
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Premium quality" />
-                    <List text="Tailwind CSS" />
-                    <List text="Use for lifetime" />
+                    <List text="Accelerated Development" />
+                    <List text="Cost-Effective Solutions" />
                   </div>
 
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Next.js" />
-                    <List text="Rich documentation" />
-                    <List text="Developer friendly" />
+                    <List text="User Feedback" />
+                    <List text="Documented and tested code" />
                   </div>
                 </div>
               </div>

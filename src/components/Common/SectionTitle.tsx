@@ -25,7 +25,7 @@ const SectionTitle = ({
           {title}
         </h2>
         <p className="text-base !leading-relaxed text-body-color md:text-lg">
-          {paragraph}
+          {paragraph}         
         </p>
       </div>
     </>
