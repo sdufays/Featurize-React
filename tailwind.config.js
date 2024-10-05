@@ -1,3 +1,5 @@
+// tailwind.config.js
+
 /** @type {import('tailwindcss').Config} */
 const colors = require("tailwindcss/colors");
 
@@ -11,7 +13,7 @@ module.exports = {
   theme: {
     container: {
       center: true,
-      padding: "1rem",
+      padding: "2rem", // Increased padding for better spacing
     },
 
     screens: {
@@ -56,6 +58,11 @@ module.exports = {
           dark: "#1E232E",
           light: "#F0F2F9",
         },
+
+        // **Custom Text Colors for Top Ranks**
+        gold: "#FFD700",
+        silver: "#C0C0C0",
+        bronze: "#CD7F32",
       },
 
       boxShadow: {
@@ -75,7 +82,28 @@ module.exports = {
       dropShadow: {
         three: "0px 5px 15px rgba(6, 8, 15, 0.05)",
       },
+
+      // **Font Family**
+      fontFamily: {
+        sans: ['"Poppins"', "sans-serif"],
+        professional: ['"Roboto"', "sans-serif"],
+      },
     },
   },
-  plugins: [],
+  plugins: [
+    function ({ addUtilities }) {
+      const newUtilities = {
+        ".text-shadow": {
+          textShadow: "2px 2px 4px rgba(0, 0, 0, 0.1)",
+        },
+        ".text-shadow-md": {
+          textShadow: "3px 3px 6px rgba(0, 0, 0, 0.15)",
+        },
+        ".text-shadow-lg": {
+          textShadow: "4px 4px 8px rgba(0, 0, 0, 0.2)",
+        },
+      };
+      addUtilities(newUtilities, ["responsive", "hover"]);
+    },
+  ],
 };
