@@ -1,9 +1,15 @@
 import Image from "next/image";
+import SectionTitle from "../Common/SectionTitle";
 
 const AboutSectionTwo = () => {
   return (
     <section className="py-16 md:py-20 lg:py-28">
       <div className="container">
+        <SectionTitle
+          title="Main Features"
+          paragraph="Explore the key features of Featurize and see how we help you innovate."
+          center
+        />
         <div className="-mx-4 flex flex-wrap items-center">
           <div className="w-full px-4 lg:w-1/2">
             <div
