@@ -8,7 +8,7 @@ const testimonialData: Testimonial[] = [
     name: "Musharof Chy",
     designation: "Founder @TailGrids",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "Featurize has transformed how we develop and deploy features. Its intuitive platform allows our team to collaborate seamlessly with developers worldwide, accelerating our time-to-market and enhancing our product offerings",
     image: "/images/testimonials/auth-01.png",
     star: 5,
   },
@@ -17,16 +17,15 @@ const testimonialData: Testimonial[] = [
     name: "Devid Weilium",
     designation: "Founder @UIdeck",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "The collaboration with developers through Featurize has not only optimized our product development but also cultivated a dynamic community of innovation. It’s a vital tool for any tech company looking to stay competitive and responsive to market needs",
     image: "/images/testimonials/auth-02.png",
     star: 5,
   },
   {
     id: 3,
     name: "Lethium Frenci",
-    designation: "Founder @Lineicons",
-    content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+    designation: "Developper at MIT",
+    content: "Featurize has been essential for enhancing my portfolio and improving applications for over 15 companies. It offers a unique platform that connects my technical skills with real-world business needs, allowing me to significantly impact tech innovation.",
     image: "/images/testimonials/auth-03.png",
     star: 5,
   },
@@ -37,7 +36,7 @@ const Testimonials = () => {
     <section className="dark:bg-bg-color-dark bg-gray-light relative z-10 py-16 md:py-20 lg:py-28">
       <div className="container">
         <SectionTitle
-          title="What Our Users Says"
+          title="What Our Users Say"
           paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
           center
         />

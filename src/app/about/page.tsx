@@ -15,7 +15,7 @@ const AboutPage = () => {
     <>
       <Breadcrumb
         pageName="About Page"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius eros eget sapien consectetur ultrices. Ut quis dapibus libero."
+        description="Featurize is a platformbuilt by MIT, Princeton, and Columbia students that empowers developers to directly impact the digital products they love while building their portfolios and earning rewards. Simultaneously, we enable companies to continuously improve their offerings by tapping into global talent, receiving direct feedback from users, and enhancing their products without straining internal resources."
       />
       <AboutSectionOne />
       <AboutSectionTwo />
