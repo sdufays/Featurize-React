@@ -9,10 +9,11 @@ import Testimonials from "@/components/Testimonials";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "What will you Featurize today?",
-  description: "This is Home for Startup Nextjs Template",
+  title: "Featurize",
+  description: "MEC Sprint MVP",
   // other metadata
 };
+
 
 export default function Home() {
   return (

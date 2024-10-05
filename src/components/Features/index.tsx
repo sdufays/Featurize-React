@@ -2,6 +2,7 @@ import SectionTitle from "../Common/SectionTitle";
 import SingleFeature from "./SingleFeature";
 import featuresData from "./featuresData";
 
+
 const Features = () => {
   return (
     <>
@@ -9,7 +10,7 @@ const Features = () => {
         <div className="container">
           <SectionTitle
             title="Main Features"
-            paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+            paragraph="Explore the key features of Featurize and see how we help you innovate."
             center
           />
 
