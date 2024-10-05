@@ -3,12 +3,13 @@ import SectionTitle from "../Common/SectionTitle";
 
 const AboutSectionTwo = () => {
   return (
-    <section className="py-16 md:py-20 lg:py-28">
+    <section className="py-16 md:py-20 lg:py-28" >
       <div className="container">
         <SectionTitle
-          title="Main Features"
+          title="Developer Impact & Innovation"
           paragraph="Explore the key features of Featurize and see how we help you innovate."
           center
+          nowrap
         />
         <div className="-mx-4 flex flex-wrap items-center">
           <div className="w-full px-4 lg:w-1/2">
@@ -34,29 +35,26 @@ const AboutSectionTwo = () => {
             <div className="max-w-[470px]">
               <div className="mb-9">
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  Bug free code
+                  Rigorous Testing
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Every contribution undergoes intensive testing phases to ensure robustness and functionality. This includes unit tests, integration tests, and security checks to maintain high quality and secure products.
                 </p>
               </div>
               <div className="mb-9">
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  Premier support
+                Quality and Security Assurance
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt.
+                Contributions are not only tested for functionality but also for compliance with security standards. Quality checks are integrated throughout the development process to safeguard user data and ensure a reliable end product.
                 </p>
               </div>
               <div className="mb-1">
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  Next.js
+                 Comprehensive Documentation
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Lorem ipsum dolor sit amet, sed do eiusmod tempor incididunt
-                  consectetur adipiscing elit setim.
+                 Comprehensive documentation accompanies every code contribution, detailing functionalities, changes, and integration methods. This practice enhances maintainability and facilitates future upgrades or modifications
                 </p>
               </div>
             </div>

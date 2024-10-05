@@ -24,8 +24,10 @@ const AboutSectionOne = () => {
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
-                title="Crafted for Startup, SaaS and Business Sites."
-                paragraph="The main ‘thrust’ is to focus on educating attendees on how to best protect highly vulnerable business applications with interactive panel discussions and roundtables."
+                title="Customized Solutions for Diverse Tech Companies"
+                paragraph="At Featurize, we specialize in enhancing consumer-facing applications for tech companies across various sizes and stages. Our platform is designed to streamline the development process, enabling businesses to rapidly innovate and refine their offerings without overextending their resources.
+
+                "
                 mb="44px"
               />
 
