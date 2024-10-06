@@ -122,10 +122,9 @@ const SubmissionForm = () => {
         Submit Your Proposal
       </h3>
       <form
-        action="/blog-sidebar" // Ensure this matches your API route path
+        action="/blog-sidebar"
         method="POST"
-        className="space-y-6"
-      >
+        className="space-y-6">
         {/* First Question: Objective and Rationale */}
         <div>
           <label
@@ -137,7 +136,7 @@ const SubmissionForm = () => {
           <textarea
             id="objective"
             name="objective"
-            rows="4"
+            rows={4}
             required
             className="w-full px-4 py-3 border border-gray-300 dark:border-gray-600 rounded-md shadow-sm focus:outline-none focus:ring-primary focus:border-primary dark:bg-gray-700 dark:text-gray-100 transition-colors duration-300"
             placeholder="Briefly describe your proposal or feature idea and its purpose..."
@@ -155,7 +154,7 @@ const SubmissionForm = () => {
           <textarea
             id="implementation"
             name="implementation"
-            rows="4"
+            rows={4}
             required
             className="w-full px-4 py-3 border border-gray-300 dark:border-gray-600 rounded-md shadow-sm focus:outline-none focus:ring-primary focus:border-primary dark:bg-gray-700 dark:text-gray-100 transition-colors duration-300"
             placeholder="Outline the technical approach and technologies you would use..."
