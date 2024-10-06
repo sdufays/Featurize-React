@@ -4,8 +4,7 @@ const blogData: Blog[] = [
   {
     id: 1,
     title: "Uber",
-    paragraph:
-      "Helping riders find a way to go from point A to point B.",
+    paragraph: "Helping riders find a way to go from point A to point B.",
     image: "/images/blog/uber-logo.png",
     author: {
       name: "Abraham Alemu",
@@ -18,8 +17,7 @@ const blogData: Blog[] = [
   {
     id: 2,
     title: "Ramp",
-    paragraph:
-      "Help finance teams build healthier businesses.",
+    paragraph: "Help finance teams build healthier businesses.",
     image: "/images/blog/ramp-new-logo.jpg",
     author: {
       name: "Sarah Dufays",
@@ -59,31 +57,31 @@ const blogData: Blog[] = [
   },
   {
     id: 5,
-    title: "Slack",
-    paragraph:
-      "Streamlining team collaboration and communication for businesses.",
-    image: "/images/blog/slack-final-logo.png",
-    author: {
-      name: "David Lee",
-      image: "/images/blog/stock2-headshot.jpeg",
-      designation: "Engineering Lead",
-    },
-    tags: ["Team Collaboration"],
-    publishDate: "August 12, 2024",
-  },
-  {
-    id: 6,
     title: "UnitedHealth Group",
     paragraph:
-      "Helping people live healthier lives and  make the health system work better for everyone.",
+      "Helping people live healthier lives and make the health system work better for everyone.",
     image: "/images/blog/unitedhealthgroup-logo.png",
     author: {
       name: "Nina Patel",
       image: "/images/blog/stock3-headshot.jpeg",
       designation: "Project Manager",
     },
-    tags: ["Project Management"],
+    tags: ["Healthcare"],
     publishDate: "September 2, 2024",
+  },
+  {
+    id: 6,
+    title: "Your Opinion Matters!",
+    paragraph:
+      "We'd love to hear from you. Let us know which companies you'd like to see on our platform.",
+    image: "/images/Screenshot 2024-10-06 at 9.04.53 AM.png", // You can use a placeholder image or icon
+    author: {
+      name: "The Featurize Team",
+      image: "/images/favicon.png", // Placeholder image
+      designation: "Community Engagement",
+    },
+    tags: ["Feedback"],
+    publishDate: "October 10, 2024",
   },
 ];
 

@@ -1,5 +1,3 @@
-// tailwind.config.js
-
 /** @type {import('tailwindcss').Config} */
 const colors = require("tailwindcss/colors");
 
@@ -9,31 +7,20 @@ module.exports = {
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
-  darkMode: "class",
+  darkMode: "class", // Enables dark mode via a 'class' on the root element
   theme: {
     container: {
       center: true,
-      padding: "2rem", // Increased padding for better spacing
+      padding: "2rem",
     },
 
     screens: {
       xs: "450px",
-      // => @media (min-width: 450px) { ... }
-
       sm: "575px",
-      // => @media (min-width: 576px) { ... }
-
       md: "768px",
-      // => @media (min-width: 768px) { ... }
-
       lg: "992px",
-      // => @media (min-width: 992px) { ... }
-
       xl: "1200px",
-      // => @media (min-width: 1200px) { ... }
-
       "2xl": "1400px",
-      // => @media (min-width: 1400px) { ... }
     },
     extend: {
       colors: {
@@ -42,7 +29,8 @@ module.exports = {
         white: "#FFFFFF",
         black: "#121723",
         dark: "#1D2430",
-        primary: "#4A6CF7",
+        primary: "#4A6CF7", // Define your primary color
+        "primary-dark": "#3B57D6", // Darker shade for hover effects
         yellow: "#FBB040",
         "bg-color-dark": "#171C28",
         "body-color": {
@@ -59,7 +47,7 @@ module.exports = {
           light: "#F0F2F9",
         },
 
-        // **Custom Text Colors for Top Ranks**
+        // Custom Text Colors for Top Ranks
         gold: "#FFD700",
         silver: "#C0C0C0",
         bronze: "#CD7F32",
@@ -83,7 +71,7 @@ module.exports = {
         three: "0px 5px 15px rgba(6, 8, 15, 0.05)",
       },
 
-      // **Font Family**
+      // Font Family
       fontFamily: {
         sans: ['"Poppins"', "sans-serif"],
         professional: ['"Roboto"', "sans-serif"],
