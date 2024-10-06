@@ -74,7 +74,7 @@ const blogData: Blog[] = [
     title: "Your Opinion Matters!",
     paragraph:
       "We'd love to hear from you. Let us know which companies you'd like to see on our platform.",
-    image: "/images/Screenshot 2024-10-06 at 9.04.53 AM.png", // You can use a placeholder image or icon
+    image: "/images/PlusIcon.png", // You can use a placeholder image or icon
     author: {
       name: "The Featurize Team",
       image: "/images/favicon.png", // Placeholder image
